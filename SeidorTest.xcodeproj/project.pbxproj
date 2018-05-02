@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD2D710209A5AE700E2EFBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */; };
+		2CD2D712209A5AE700E2EFBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D711209A5AE700E2EFBF /* ViewController.swift */; };
+		2CD2D715209A5AE700E2EFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D713209A5AE700E2EFBF /* Main.storyboard */; };
+		2CD2D717209A5AE900E2EFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D716209A5AE900E2EFBF /* Assets.xcassets */; };
+		2CD2D71A209A5AE900E2EFBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D718209A5AE900E2EFBF /* LaunchScreen.storyboard */; };
+		2CD2D725209A5AE900E2EFBF /* SeidorTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D724209A5AE900E2EFBF /* SeidorTestTests.swift */; };
+		2CD2D730209A5AE900E2EFBF /* SeidorTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D72F209A5AE900E2EFBF /* SeidorTestUITests.swift */; };
+		4DC76AB6797103AFDFEF26EE /* Pods_SeidorTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5F547D296958D1A2964D21 /* Pods_SeidorTestTests.framework */; };
+		5F99C1199B28C1D8DF1549CF /* Pods_SeidorTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9523A8DB25574A491CF5274 /* Pods_SeidorTest.framework */; };
+		867CB91A9B59A37549EBD4A6 /* Pods_SeidorTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300FCB0FB554045A25B27A38 /* Pods_SeidorTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD2D721209A5AE900E2EFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD2D704209A5AE700E2EFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD2D70B209A5AE700E2EFBF;
+			remoteInfo = SeidorTest;
+		};
+		2CD2D72C209A5AE900E2EFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD2D704209A5AE700E2EFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD2D70B209A5AE700E2EFBF;
+			remoteInfo = SeidorTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CD2D70C209A5AE700E2EFBF /* SeidorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeidorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CD2D711209A5AE700E2EFBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CD2D714209A5AE700E2EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CD2D716209A5AE900E2EFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CD2D719209A5AE900E2EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CD2D71B209A5AE900E2EFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD2D720209A5AE900E2EFBF /* SeidorTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeidorTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD2D724209A5AE900E2EFBF /* SeidorTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeidorTestTests.swift; sourceTree = "<group>"; };
+		2CD2D726209A5AE900E2EFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD2D72B209A5AE900E2EFBF /* SeidorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeidorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD2D72F209A5AE900E2EFBF /* SeidorTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeidorTestUITests.swift; sourceTree = "<group>"; };
+		2CD2D731209A5AE900E2EFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300FCB0FB554045A25B27A38 /* Pods_SeidorTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeidorTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416E73066C40F783E4504B5D /* Pods-SeidorTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeidorTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeidorTest/Pods-SeidorTest.release.xcconfig"; sourceTree = "<group>"; };
+		542BFBFB5AB6D53B52BACA5D /* Pods-SeidorTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeidorTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeidorTest/Pods-SeidorTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5D9FE24955BC318A7AE68339 /* Pods-SeidorTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeidorTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeidorTestTests/Pods-SeidorTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B5F547D296958D1A2964D21 /* Pods_SeidorTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeidorTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7476202C90E7F8F17FF2FBE3 /* Pods-SeidorTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeidorTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeidorTestUITests/Pods-SeidorTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8910CF909E58FC15B32A63A4 /* Pods-SeidorTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeidorTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeidorTestUITests/Pods-SeidorTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE03CF49AC5349EC5DD5DF7 /* Pods-SeidorTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeidorTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeidorTestTests/Pods-SeidorTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9523A8DB25574A491CF5274 /* Pods_SeidorTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeidorTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD2D709209A5AE700E2EFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99C1199B28C1D8DF1549CF /* Pods_SeidorTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD2D71D209A5AE900E2EFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC76AB6797103AFDFEF26EE /* Pods_SeidorTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD2D728209A5AE900E2EFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867CB91A9B59A37549EBD4A6 /* Pods_SeidorTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F609297CAD2D3E06582949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				542BFBFB5AB6D53B52BACA5D /* Pods-SeidorTest.debug.xcconfig */,
+				416E73066C40F783E4504B5D /* Pods-SeidorTest.release.xcconfig */,
+				CCE03CF49AC5349EC5DD5DF7 /* Pods-SeidorTestTests.debug.xcconfig */,
+				5D9FE24955BC318A7AE68339 /* Pods-SeidorTestTests.release.xcconfig */,
+				8910CF909E58FC15B32A63A4 /* Pods-SeidorTestUITests.debug.xcconfig */,
+				7476202C90E7F8F17FF2FBE3 /* Pods-SeidorTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CD2D703209A5AE700E2EFBF = {
+			isa = PBXGroup;
+			children = (
+				2CD2D70E209A5AE700E2EFBF /* SeidorTest */,
+				2CD2D723209A5AE900E2EFBF /* SeidorTestTests */,
+				2CD2D72E209A5AE900E2EFBF /* SeidorTestUITests */,
+				2CD2D70D209A5AE700E2EFBF /* Products */,
+				07F609297CAD2D3E06582949 /* Pods */,
+				89107ECD59DD64B3E0285723 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD2D70D209A5AE700E2EFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2D70C209A5AE700E2EFBF /* SeidorTest.app */,
+				2CD2D720209A5AE900E2EFBF /* SeidorTestTests.xctest */,
+				2CD2D72B209A5AE900E2EFBF /* SeidorTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD2D70E209A5AE700E2EFBF /* SeidorTest */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */,
+				2CD2D711209A5AE700E2EFBF /* ViewController.swift */,
+				2CD2D713209A5AE700E2EFBF /* Main.storyboard */,
+				2CD2D716209A5AE900E2EFBF /* Assets.xcassets */,
+				2CD2D718209A5AE900E2EFBF /* LaunchScreen.storyboard */,
+				2CD2D71B209A5AE900E2EFBF /* Info.plist */,
+			);
+			path = SeidorTest;
+			sourceTree = "<group>";
+		};
+		2CD2D723209A5AE900E2EFBF /* SeidorTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2D724209A5AE900E2EFBF /* SeidorTestTests.swift */,
+				2CD2D726209A5AE900E2EFBF /* Info.plist */,
+			);
+			path = SeidorTestTests;
+			sourceTree = "<group>";
+		};
+		2CD2D72E209A5AE900E2EFBF /* SeidorTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2D72F209A5AE900E2EFBF /* SeidorTestUITests.swift */,
+				2CD2D731209A5AE900E2EFBF /* Info.plist */,
+			);
+			path = SeidorTestUITests;
+			sourceTree = "<group>";
+		};
+		89107ECD59DD64B3E0285723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9523A8DB25574A491CF5274 /* Pods_SeidorTest.framework */,
+				6B5F547D296958D1A2964D21 /* Pods_SeidorTestTests.framework */,
+				300FCB0FB554045A25B27A38 /* Pods_SeidorTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD2D70B209A5AE700E2EFBF /* SeidorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD2D734209A5AE900E2EFBF /* Build configuration list for PBXNativeTarget "SeidorTest" */;
+			buildPhases = (
+				2A65566E8750C81602053FF3 /* [CP] Check Pods Manifest.lock */,
+				2CD2D708209A5AE700E2EFBF /* Sources */,
+				2CD2D709209A5AE700E2EFBF /* Frameworks */,
+				2CD2D70A209A5AE700E2EFBF /* Resources */,
+				AA96C1C5874319404F964594 /* [CP] Embed Pods Frameworks */,
+				CC60B3D51A033159724CBBF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeidorTest;
+			productName = SeidorTest;
+			productReference = 2CD2D70C209A5AE700E2EFBF /* SeidorTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CD2D71F209A5AE900E2EFBF /* SeidorTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD2D737209A5AE900E2EFBF /* Build configuration list for PBXNativeTarget "SeidorTestTests" */;
+			buildPhases = (
+				C3F97B2C5A5FA676832E3D4E /* [CP] Check Pods Manifest.lock */,
+				2CD2D71C209A5AE900E2EFBF /* Sources */,
+				2CD2D71D209A5AE900E2EFBF /* Frameworks */,
+				2CD2D71E209A5AE900E2EFBF /* Resources */,
+				351A81E5BFA5C7C418481634 /* [CP] Embed Pods Frameworks */,
+				544E1C7FD23DE20F201E6E08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD2D722209A5AE900E2EFBF /* PBXTargetDependency */,
+			);
+			name = SeidorTestTests;
+			productName = SeidorTestTests;
+			productReference = 2CD2D720209A5AE900E2EFBF /* SeidorTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CD2D72A209A5AE900E2EFBF /* SeidorTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD2D73A209A5AE900E2EFBF /* Build configuration list for PBXNativeTarget "SeidorTestUITests" */;
+			buildPhases = (
+				BE0BF0C01AA8D99F10D270A9 /* [CP] Check Pods Manifest.lock */,
+				2CD2D727209A5AE900E2EFBF /* Sources */,
+				2CD2D728209A5AE900E2EFBF /* Frameworks */,
+				2CD2D729209A5AE900E2EFBF /* Resources */,
+				9CA3E63436757E2486203CF2 /* [CP] Embed Pods Frameworks */,
+				BD7C1541C21268CAC88EFD27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD2D72D209A5AE900E2EFBF /* PBXTargetDependency */,
+			);
+			name = SeidorTestUITests;
+			productName = SeidorTestUITests;
+			productReference = 2CD2D72B209A5AE900E2EFBF /* SeidorTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD2D704209A5AE700E2EFBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Matias Contreras";
+				TargetAttributes = {
+					2CD2D70B209A5AE700E2EFBF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2CD2D71F209A5AE900E2EFBF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2CD2D70B209A5AE700E2EFBF;
+					};
+					2CD2D72A209A5AE900E2EFBF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2CD2D70B209A5AE700E2EFBF;
+					};
+				};
+			};
+			buildConfigurationList = 2CD2D707209A5AE700E2EFBF /* Build configuration list for PBXProject "SeidorTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD2D703209A5AE700E2EFBF;
+			productRefGroup = 2CD2D70D209A5AE700E2EFBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD2D70B209A5AE700E2EFBF /* SeidorTest */,
+				2CD2D71F209A5AE900E2EFBF /* SeidorTestTests */,
+				2CD2D72A209A5AE900E2EFBF /* SeidorTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD2D70A209A5AE700E2EFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD2D71A209A5AE900E2EFBF /* LaunchScreen.storyboard in Resources */,
+				2CD2D717209A5AE900E2EFBF /* Assets.xcassets in Resources */,
+				2CD2D715209A5AE700E2EFBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD2D71E209A5AE900E2EFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD2D729209A5AE900E2EFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A65566E8750C81602053FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeidorTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		351A81E5BFA5C7C418481634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTestTests/Pods-SeidorTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544E1C7FD23DE20F201E6E08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTestTests/Pods-SeidorTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA3E63436757E2486203CF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTestUITests/Pods-SeidorTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA96C1C5874319404F964594 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTest/Pods-SeidorTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTest/Pods-SeidorTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD7C1541C21268CAC88EFD27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTestUITests/Pods-SeidorTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0BF0C01AA8D99F10D270A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeidorTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F97B2C5A5FA676832E3D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeidorTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC60B3D51A033159724CBBF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTest/Pods-SeidorTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD2D708209A5AE700E2EFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD2D712209A5AE700E2EFBF /* ViewController.swift in Sources */,
+				2CD2D710209A5AE700E2EFBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD2D71C209A5AE900E2EFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD2D725209A5AE900E2EFBF /* SeidorTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD2D727209A5AE900E2EFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD2D730209A5AE900E2EFBF /* SeidorTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD2D722209A5AE900E2EFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD2D70B209A5AE700E2EFBF /* SeidorTest */;
+			targetProxy = 2CD2D721209A5AE900E2EFBF /* PBXContainerItemProxy */;
+		};
+		2CD2D72D209A5AE900E2EFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD2D70B209A5AE700E2EFBF /* SeidorTest */;
+			targetProxy = 2CD2D72C209A5AE900E2EFBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CD2D713209A5AE700E2EFBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD2D714209A5AE700E2EFBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CD2D718209A5AE900E2EFBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD2D719209A5AE900E2EFBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD2D732209A5AE900E2EFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CD2D733209A5AE900E2EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD2D735209A5AE900E2EFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542BFBFB5AB6D53B52BACA5D /* Pods-SeidorTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L7G9ZSMYC;
+				INFOPLIST_FILE = SeidorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CD2D736209A5AE900E2EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416E73066C40F783E4504B5D /* Pods-SeidorTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L7G9ZSMYC;
+				INFOPLIST_FILE = SeidorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CD2D738209A5AE900E2EFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE03CF49AC5349EC5DD5DF7 /* Pods-SeidorTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TV7AF84Q92;
+				INFOPLIST_FILE = SeidorTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeidorTest.app/SeidorTest";
+			};
+			name = Debug;
+		};
+		2CD2D739209A5AE900E2EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9FE24955BC318A7AE68339 /* Pods-SeidorTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TV7AF84Q92;
+				INFOPLIST_FILE = SeidorTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeidorTest.app/SeidorTest";
+			};
+			name = Release;
+		};
+		2CD2D73B209A5AE900E2EFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8910CF909E58FC15B32A63A4 /* Pods-SeidorTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TV7AF84Q92;
+				INFOPLIST_FILE = SeidorTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeidorTest;
+			};
+			name = Debug;
+		};
+		2CD2D73C209A5AE900E2EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7476202C90E7F8F17FF2FBE3 /* Pods-SeidorTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TV7AF84Q92;
+				INFOPLIST_FILE = SeidorTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeidorTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD2D707209A5AE700E2EFBF /* Build configuration list for PBXProject "SeidorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD2D732209A5AE900E2EFBF /* Debug */,
+				2CD2D733209A5AE900E2EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD2D734209A5AE900E2EFBF /* Build configuration list for PBXNativeTarget "SeidorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD2D735209A5AE900E2EFBF /* Debug */,
+				2CD2D736209A5AE900E2EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD2D737209A5AE900E2EFBF /* Build configuration list for PBXNativeTarget "SeidorTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD2D738209A5AE900E2EFBF /* Debug */,
+				2CD2D739209A5AE900E2EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD2D73A209A5AE900E2EFBF /* Build configuration list for PBXNativeTarget "SeidorTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD2D73B209A5AE900E2EFBF /* Debug */,
+				2CD2D73C209A5AE900E2EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD2D704209A5AE700E2EFBF /* Project object */;
+}

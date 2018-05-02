@@ -1,0 +1,6 @@
+framework module Pods_SeidorTest {
+  umbrella header "Pods-SeidorTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
