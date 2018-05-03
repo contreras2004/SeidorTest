@@ -15,13 +15,12 @@ class MovieDetailsTableViewController: UITableViewController {
     
     @IBOutlet weak var movieImage: UIImageView!
     @IBOutlet weak var movieTitle: UILabel!
-    
     @IBOutlet weak var movieOriginalTitle: UILabel!
     @IBOutlet weak var movieReleaseDate: UILabel!
     @IBOutlet weak var movieLanguage: UILabel!
-    
     @IBOutlet weak var movieOverview: UILabel!
     @IBOutlet weak var movieVote: UILabel!
+    @IBOutlet weak var movieVoteCount: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,13 +35,15 @@ class MovieDetailsTableViewController: UITableViewController {
     func render(){
         if let movie = movie{
             print(movie.posterPath)
-            self.movieTitle.text = movie.title
-            self.movieOriginalTitle.text = movie.originalTitle
-            self.movieReleaseDate.text = movie.releaseDate
-            self.movieLanguage.text = getFullLanguageName(movie: movie)
+            self.movieTitle.text            = movie.title
+            self.movieOriginalTitle.text    = movie.originalTitle
+            self.movieReleaseDate.text      = movie.releaseDate
+            self.movieLanguage.text         = getFullLanguageName(movie: movie)
+            self.movieOverview.text         = movie.overview
+            self.movieVote.text             = "\(movie.voteAverage.rounded(toPlaces: 3))"
+            self.movieVoteCount.text        = movie.voteCount
+            
             self.movieImage.sd_setImage(with: URL(string: movie.posterPath), placeholderImage: UIImage(named: "placeholder.png"))
-            self.movieOverview.text = movie.overview
-            self.movieVote.text = "\(movie.voteAverage.rounded(toPlaces: 3))"
         }
         
     }

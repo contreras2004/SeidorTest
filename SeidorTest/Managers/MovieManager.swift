@@ -36,4 +36,6 @@ class MovieManager{
             print("Error en la llamada: \(error)")
         }
     }
+    
+    /*Eventually here we could implement some methods for persistant storage 😀 */
 }
