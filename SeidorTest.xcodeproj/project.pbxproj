@@ -14,6 +14,10 @@
 		2C408464209AB0FD00B5B3EF /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408463209AB0FD00B5B3EF /* MoviesTableViewController.swift */; };
 		2C408467209AB19E00B5B3EF /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408466209AB19E00B5B3EF /* MovieTableViewCell.swift */; };
 		2C40846A209ABD5400B5B3EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408469209ABD5400B5B3EF /* Extensions.swift */; };
+		2C40846C209ABF0A00B5B3EF /* MainNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40846B209ABF0A00B5B3EF /* MainNavigationControllerViewController.swift */; };
+		2C40846F209ABF9B00B5B3EF /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40846E209ABF9B00B5B3EF /* Strings.swift */; };
+		2C408471209AC9FA00B5B3EF /* MovieDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408470209AC9FA00B5B3EF /* MovieDetailsTableViewController.swift */; };
+		2C408473209ACB0F00B5B3EF /* ContainerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408472209ACB0F00B5B3EF /* ContainerDetailViewController.swift */; };
 		2CD2D710209A5AE700E2EFBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */; };
 		2CD2D715209A5AE700E2EFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D713209A5AE700E2EFBF /* Main.storyboard */; };
 		2CD2D717209A5AE900E2EFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D716209A5AE900E2EFBF /* Assets.xcassets */; };
@@ -50,6 +54,10 @@
 		2C408463209AB0FD00B5B3EF /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 		2C408466209AB19E00B5B3EF /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		2C408469209ABD5400B5B3EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2C40846B209ABF0A00B5B3EF /* MainNavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		2C40846E209ABF9B00B5B3EF /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		2C408470209AC9FA00B5B3EF /* MovieDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsTableViewController.swift; sourceTree = "<group>"; };
+		2C408472209ACB0F00B5B3EF /* ContainerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerDetailViewController.swift; sourceTree = "<group>"; };
 		2CD2D70C209A5AE700E2EFBF /* SeidorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeidorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD2D714209A5AE700E2EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +150,9 @@
 		2C408465209AB10300B5B3EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C408472209ACB0F00B5B3EF /* ContainerDetailViewController.swift */,
+				2C408470209AC9FA00B5B3EF /* MovieDetailsTableViewController.swift */,
+				2C40846B209ABF0A00B5B3EF /* MainNavigationControllerViewController.swift */,
 				2C408463209AB0FD00B5B3EF /* MoviesTableViewController.swift */,
 			);
 			path = Controllers;
@@ -153,6 +164,15 @@
 				2C408466209AB19E00B5B3EF /* MovieTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C40846D209ABF6400B5B3EF /* ConfigFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2C40846E209ABF9B00B5B3EF /* Strings.swift */,
+				2C408458209A623100B5B3EF /* Config.swift */,
+			);
+			path = ConfigFiles;
 			sourceTree = "<group>";
 		};
 		2CD2D703209A5AE700E2EFBF = {
@@ -180,7 +200,7 @@
 		2CD2D70E209A5AE700E2EFBF /* SeidorTest */ = {
 			isa = PBXGroup;
 			children = (
-				2C408458209A623100B5B3EF /* Config.swift */,
+				2C40846D209ABF6400B5B3EF /* ConfigFiles */,
 				2C408468209AB1A600B5B3EF /* Cells */,
 				2C40845C209AA1BE00B5B3EF /* Lib */,
 				2C408460209AA21F00B5B3EF /* Managers */,
@@ -521,9 +541,13 @@
 			files = (
 				2C408462209AA32500B5B3EF /* Movie.swift in Sources */,
 				2C40846A209ABD5400B5B3EF /* Extensions.swift in Sources */,
+				2C40846F209ABF9B00B5B3EF /* Strings.swift in Sources */,
+				2C408473209ACB0F00B5B3EF /* ContainerDetailViewController.swift in Sources */,
 				2C408459209A623100B5B3EF /* Config.swift in Sources */,
+				2C40846C209ABF0A00B5B3EF /* MainNavigationControllerViewController.swift in Sources */,
 				2C40845B209A6B4900B5B3EF /* APIManager.swift in Sources */,
 				2C408464209AB0FD00B5B3EF /* MoviesTableViewController.swift in Sources */,
+				2C408471209AC9FA00B5B3EF /* MovieDetailsTableViewController.swift in Sources */,
 				2C40845E209AA20F00B5B3EF /* MovieManager.swift in Sources */,
 				2C408467209AB19E00B5B3EF /* MovieTableViewCell.swift in Sources */,
 				2CD2D710209A5AE700E2EFBF /* AppDelegate.swift in Sources */,

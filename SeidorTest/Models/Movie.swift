@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class Movie{
     
-    let posterPathBase = "http://image.tmdb.org/t/p/w500"
+    private let posterPathBase = "http://image.tmdb.org/t/p/w500"
     
     struct Keys{
         static let id = "id"
