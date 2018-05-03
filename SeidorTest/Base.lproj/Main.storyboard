@@ -360,12 +360,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="UeB-Gt-7hj">
                                         <rect key="frame" x="0.0" y="734" width="343" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UeB-Gt-7hj" id="Xv3-sY-Sdl">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UeB-Gt-7hj" id="Xv3-sY-Sdl">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VS-lR-def">
-                                                    <rect key="frame" x="16" y="11" width="311" height="22"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VS-lR-def">
+                                                    <rect key="frame" x="16" y="11" width="311" height="2.5"/>
                                                     <string key="text">When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth\U2019s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -376,7 +376,7 @@
                                                 <constraint firstItem="9VS-lR-def" firstAttribute="trailing" secondItem="Xv3-sY-Sdl" secondAttribute="trailingMargin" id="Hl6-If-uCx"/>
                                                 <constraint firstItem="9VS-lR-def" firstAttribute="top" secondItem="Xv3-sY-Sdl" secondAttribute="topMargin" id="MAz-lo-8UY"/>
                                                 <constraint firstItem="9VS-lR-def" firstAttribute="leading" secondItem="Xv3-sY-Sdl" secondAttribute="leadingMargin" id="Ma7-ym-FDV"/>
-                                                <constraint firstItem="9VS-lR-def" firstAttribute="bottom" secondItem="Xv3-sY-Sdl" secondAttribute="bottomMargin" id="Pew-1n-HRU"/>
+                                                <constraint firstAttribute="bottom" secondItem="9VS-lR-def" secondAttribute="bottom" constant="50" id="oMx-bO-THy"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
