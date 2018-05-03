@@ -10,7 +10,7 @@ import UIKit
 
 class Config{
     
-    private static let apiKey       = "34738023d27013e6d1b995443764da44a"
+    private static let apiKey       = "34738023d27013e6d1b995443764da44"
     private static let baseDomain   = "https://api.themoviedb.org"
     
     private struct Endpoints{
