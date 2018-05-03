@@ -41,7 +41,7 @@ class MovieDetailsTableViewController: UITableViewController {
             self.movieLanguage.text         = getFullLanguageName(movie: movie)
             self.movieOverview.text         = movie.overview
             self.movieVote.text             = "\(movie.voteAverage.rounded(toPlaces: 3))"
-            self.movieVoteCount.text        = movie.voteCount
+            self.movieVoteCount.text        = "\(movie.voteCount) votos"
             
             self.movieImage.sd_setImage(with: URL(string: movie.posterPath), placeholderImage: UIImage(named: "placeholder.png"))
         }
