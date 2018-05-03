@@ -120,7 +120,6 @@ class MoviesTableViewController: UITableViewController {
 
 extension MoviesTableViewController: MovieTableViewCellDelegate{
     func didPressButton(movie: Movie) {
-        print("didPressButton with movie: \(movie.title)")
         self.selectedMovie = movie
         self.performSegue(withIdentifier: movieDetailsSegue, sender: self)
     }

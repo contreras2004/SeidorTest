@@ -34,7 +34,6 @@ class MovieDetailsTableViewController: UITableViewController {
     
     func render(){
         if let movie = movie{
-            print(movie.posterPath)
             self.movieTitle.text            = movie.title
             self.movieOriginalTitle.text    = movie.originalTitle
             self.movieReleaseDate.text      = movie.releaseDate

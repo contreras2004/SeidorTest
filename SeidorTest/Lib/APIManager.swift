@@ -22,7 +22,6 @@ class APIManager: NSObject {
     
     func getMovies(url: String, completition: @escaping ((_ responseObject: JSON) -> Void), failure: @escaping ((_ error: Error) -> Void)) {
         manager.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON{ response in
-            print(response)
             
             switch (response.result) {
             case .success(let value):
