@@ -126,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				2C408469209ABD5400B5B3EF /* Extensions.swift */,
-				2C40845A209A6B4900B5B3EF /* APIManager.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -142,6 +141,7 @@
 		2C408460209AA21F00B5B3EF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				2C40845A209A6B4900B5B3EF /* APIManager.swift */,
 				2C40845D209AA20F00B5B3EF /* MovieManager.swift */,
 			);
 			path = Managers;
