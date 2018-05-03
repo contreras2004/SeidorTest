@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C408459209A623100B5B3EF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408458209A623100B5B3EF /* Config.swift */; };
+		2C40845B209A6B4900B5B3EF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40845A209A6B4900B5B3EF /* APIManager.swift */; };
+		2C40845E209AA20F00B5B3EF /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40845D209AA20F00B5B3EF /* MovieManager.swift */; };
+		2C408462209AA32500B5B3EF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408461209AA32500B5B3EF /* Movie.swift */; };
+		2C408464209AB0FD00B5B3EF /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408463209AB0FD00B5B3EF /* MoviesTableViewController.swift */; };
+		2C408467209AB19E00B5B3EF /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408466209AB19E00B5B3EF /* MovieTableViewCell.swift */; };
+		2C40846A209ABD5400B5B3EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C408469209ABD5400B5B3EF /* Extensions.swift */; };
 		2CD2D710209A5AE700E2EFBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */; };
-		2CD2D712209A5AE700E2EFBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2D711209A5AE700E2EFBF /* ViewController.swift */; };
 		2CD2D715209A5AE700E2EFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D713209A5AE700E2EFBF /* Main.storyboard */; };
 		2CD2D717209A5AE900E2EFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D716209A5AE900E2EFBF /* Assets.xcassets */; };
 		2CD2D71A209A5AE900E2EFBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2D718209A5AE900E2EFBF /* LaunchScreen.storyboard */; };
@@ -37,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C408458209A623100B5B3EF /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2C40845A209A6B4900B5B3EF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2C40845D209AA20F00B5B3EF /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		2C408461209AA32500B5B3EF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2C408463209AB0FD00B5B3EF /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		2C408466209AB19E00B5B3EF /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		2C408469209ABD5400B5B3EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2CD2D70C209A5AE700E2EFBF /* SeidorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeidorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CD2D711209A5AE700E2EFBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CD2D714209A5AE700E2EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CD2D716209A5AE900E2EFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CD2D719209A5AE900E2EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,6 +114,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2C40845C209AA1BE00B5B3EF /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2C408469209ABD5400B5B3EF /* Extensions.swift */,
+				2C40845A209A6B4900B5B3EF /* APIManager.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2C40845F209AA21600B5B3EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C408461209AA32500B5B3EF /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C408460209AA21F00B5B3EF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2C40845D209AA20F00B5B3EF /* MovieManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2C408465209AB10300B5B3EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C408463209AB0FD00B5B3EF /* MoviesTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C408468209AB1A600B5B3EF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C408466209AB19E00B5B3EF /* MovieTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2CD2D703209A5AE700E2EFBF = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +180,13 @@
 		2CD2D70E209A5AE700E2EFBF /* SeidorTest */ = {
 			isa = PBXGroup;
 			children = (
+				2C408458209A623100B5B3EF /* Config.swift */,
+				2C408468209AB1A600B5B3EF /* Cells */,
+				2C40845C209AA1BE00B5B3EF /* Lib */,
+				2C408460209AA21F00B5B3EF /* Managers */,
+				2C40845F209AA21600B5B3EF /* Models */,
+				2C408465209AB10300B5B3EF /* Controllers */,
 				2CD2D70F209A5AE700E2EFBF /* AppDelegate.swift */,
-				2CD2D711209A5AE700E2EFBF /* ViewController.swift */,
 				2CD2D713209A5AE700E2EFBF /* Main.storyboard */,
 				2CD2D716209A5AE900E2EFBF /* Assets.xcassets */,
 				2CD2D718209A5AE900E2EFBF /* LaunchScreen.storyboard */,
@@ -372,12 +430,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SeidorTest/Pods-SeidorTest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -459,7 +519,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD2D712209A5AE700E2EFBF /* ViewController.swift in Sources */,
+				2C408462209AA32500B5B3EF /* Movie.swift in Sources */,
+				2C40846A209ABD5400B5B3EF /* Extensions.swift in Sources */,
+				2C408459209A623100B5B3EF /* Config.swift in Sources */,
+				2C40845B209A6B4900B5B3EF /* APIManager.swift in Sources */,
+				2C408464209AB0FD00B5B3EF /* MoviesTableViewController.swift in Sources */,
+				2C40845E209AA20F00B5B3EF /* MovieManager.swift in Sources */,
+				2C408467209AB19E00B5B3EF /* MovieTableViewCell.swift in Sources */,
 				2CD2D710209A5AE700E2EFBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,7 +703,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8L7G9ZSMYC;
 				INFOPLIST_FILE = SeidorTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -653,7 +722,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8L7G9ZSMYC;
 				INFOPLIST_FILE = SeidorTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -670,7 +742,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV7AF84Q92;
 				INFOPLIST_FILE = SeidorTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -688,7 +764,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV7AF84Q92;
 				INFOPLIST_FILE = SeidorTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -705,7 +785,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV7AF84Q92;
 				INFOPLIST_FILE = SeidorTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -722,7 +806,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV7AF84Q92;
 				INFOPLIST_FILE = SeidorTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = matiascontreras.SeidorTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

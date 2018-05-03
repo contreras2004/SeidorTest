@@ -8,6 +8,7 @@ target 'SeidorTest' do
   pod 'Alamofire', '~> 4.7'
   pod 'SwiftyJSON'
   pod 'SVProgressHUD'
+  pod 'SDWebImage', '~> 4.0'
 
   target 'SeidorTestTests' do
     inherit! :search_paths
